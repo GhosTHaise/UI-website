@@ -18,7 +18,7 @@ const App = () => (
               </div>
         </div>  
 
-        <section className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
               <div className={`${styles.boxWidth}`}>
                 <Stats />
                 <Business />
@@ -29,7 +29,7 @@ const App = () => (
                 <CTA />
                 <Footer />
               </div>
-        </section>  
+        </div>  
     </div>
   );
 
