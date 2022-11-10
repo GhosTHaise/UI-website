@@ -4,7 +4,7 @@ import {navLinks} from "../constants"
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  //1:19"33
+  //1:52"01
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
       <img src={logo} alt="hoobank" className='w-[124px] h-[32px]' />
