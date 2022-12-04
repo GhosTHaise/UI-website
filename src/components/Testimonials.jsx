@@ -1,7 +1,6 @@
-import {feedback,clients} from "../constants"
+import {feedback} from "../constants"
 import styles from "../style"
 import FeadbackCard from "./FeadbackCard" 
-import { airbnb,binance,coinbase,dropbox } from "../assets"
 const Testimonials = () => 
 ( 
     <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
@@ -20,13 +19,6 @@ const Testimonials = () =>
                 {feedback.map(card => (
                     <FeadbackCard key={card.id} {...card} />
                 ))}
-            </div>
-            <div className={`flex gap-12 sm:flex-row flex-col items-center justify-center w-full ${styles.paddingY}`}>
-                {clients.map((client,index) => ( 
-                        <img key={client.id} className="w-[170px] h-[50px] object-contain" src={client.logo} alt={client.id} />
-                ))}
-                
-                
             </div>
     </section>
 )
