@@ -6,6 +6,8 @@ npm install
 ```
 > start project
 As it's a project build from vite template , you need to run this in dev environment.
+
+
 Therewith execute the following command:
 ```shell
  npm run dev
